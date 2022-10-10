@@ -1,0 +1,117 @@
+
+.title-original {
+
+}
+
+.breadcrump {
+    .breadcrump-content .container{
+        h1 {
+
+        }
+        p{
+            span {
+
+            }
+        }
+    }
+}
+
+.about {
+    .container {
+        .row {
+            .col-5 {
+                .about-left {
+                    .title {
+                        @extend .title-original;
+                    }
+                }
+            }
+
+            .col-7 {
+                .about-right {
+                    p {
+
+                    }
+                    a {
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.history {
+    .container {
+        .row {
+            .col-12 {
+                .history-content{
+                    .title {
+                        @extend .title-original;
+                    }
+                    .history-wrap{
+                        .row {
+                            .col-3 {
+                                h4 {
+
+                                }
+                                p {
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.choose {
+    .container {
+        .row {
+            .col-6  {
+                .title {
+                    @extend .title-original;
+                }
+
+            }
+            .col-6 {
+                .row {
+                    .col-12 {
+                        .choose-item{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.ourteam {
+    .container {
+        .row {
+            .col-12 {
+                .title{
+                    @extend .title-original;
+                }
+            }
+            .row {
+                .col-3 {
+                    .team-item {
+                        .item-top{
+                        }
+                        .item-body {
+
+                        }
+                        .item-bottom {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
