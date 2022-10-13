@@ -1269,7 +1269,33 @@ a.dropdown__item:hover::before{
 }
 
 
+.blog-content img{
+  width: 100%;
+  border-radius: 1rem;
+}
 
+.social-media i {
+  margin:1rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.social-media i:hover {
+  opacity: 0.6;
+}
+
+.social-media i.fa-facebook-f {
+  color : #3b5998;
+
+}
+
+.social-media i.fa-twitter {
+  color:#1da1f2;
+}
+
+.social-media i.fa-instagram {
+  color: #c13584;
+}
 
 .related-blog .related-title {
   font-size: 28px;
@@ -1281,7 +1307,7 @@ a.dropdown__item:hover::before{
 }
 
 .related-blog .row .related-item img {
-  max-width: 412px;
+  /* max-width: 412px; */
   border-radius: 0.6rem ;
   height: 312px;
 }
@@ -1404,5 +1430,40 @@ textarea
   .blog .container .title-blog .title-body h3  {
     padding:0px;
     font-size:2rem;
+  }
+}
+@media screen and (max-width:996px) {
+  .comment-item .col-11 {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .comment-item .col-11 {
+    padding-left: 4rem;
+  }
+  .related-item img {
+    width: 100%;
+  }
+  .form-blog h3 {
+    padding:0;
+  }
+  .form-blog .row.form-wrap {
+    padding:0;
+  }
+  .sendmess {
+    margin-left:3rem;
+  }
+  .sendmess button {
+      font-size:1rem;
+      padding: 0.5rem;
+      
+    }
+
+}
+
+@media screen and (max-width:996px) and (min-width:768px) {
+  .form-blog .row.form-wrap {
+    padding:0;
   }
 }
