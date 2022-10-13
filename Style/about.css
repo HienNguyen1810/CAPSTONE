@@ -1080,3 +1080,19 @@ a.dropdown__item:hover::before{
 .back-top:hover{
   transform: translateY(-10px);
 }
+
+/* About CSS */
+
+.about {
+  margin-top: 5rem;
+
+}
+.container {
+  padding-left:10rem;
+  padding-right:10rem;
+}
+
+.about .container .about-left .title h3,.about .container .about-left .title p{
+ color:var(--dark);
+ font-weight: 600;
+}
